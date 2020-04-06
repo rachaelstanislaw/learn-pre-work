@@ -1,4 +1,4 @@
-# learn-pre-work
+# LEARN Pre-work Application
 
 ## How this repo is organized
 Each file will have:
