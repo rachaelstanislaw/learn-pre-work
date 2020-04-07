@@ -13,7 +13,7 @@ Eventually moved onto more broad uses. Remember myspace? Probably used HTML/CSS 
 
 There are hundreds of tags in HTML! You can look to MDN (Mozilla Developer Network) ar W3 Schools to see all of the tags available. Don't feel obligated by any means to memorize these. There are a few that you will use often (div, h1, p, etc.) and some that you will likely never use! At this point, just get familiar with the anatomy of a typical HTML tag.
 
-<a href= "https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="blank"> MDN HTML Tags </a>
+<a href= "https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank"> MDN HTML Tags </a>
 
 
 <img src="https://i.ibb.co/HgYhW3h/Screen-Shot-2020-04-06-at-11-46-29-AM.png" alt="Screen-Shot-2020-04-06-at-11-46-29-AM" border="0">
