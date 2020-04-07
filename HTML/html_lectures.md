@@ -9,6 +9,8 @@ Eventually moved onto more broad uses. Remember myspace? Probably used HTML/CSS 
 
 **2. What is a tag?**
 
+HTML tags are the hidden keywords within a web page that define how your web browser must format and display the content. HTML tags typically fall into the following format: 
+
 <img src="https://i.ibb.co/68xfFyB/Screen-Shot-2020-04-06-at-10-54-09-AM.png" alt="Screen-Shot-2020-04-06-at-10-54-09-AM" border="0">
 
 There are hundreds of tags in HTML! You can look to MDN (Mozilla Developer Network) ar W3 Schools to see all of the tags available. Don't feel obligated by any means to memorize these. There are a few that you will use often (div, h1, p, etc.) and some that you will likely never use! At this point, just get familiar with the anatomy of a typical HTML tag.
