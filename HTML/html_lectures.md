@@ -28,3 +28,4 @@ It is important to understand what each tag in the boiler plate if responsible f
 *Developer Note: our in-app text editor will already be set to "HTML" where necessary. This is purely for their own knowledge. We are not spending a lot of time on the boiler plate, we just want to introduce it. Tags, indentation, and attributes are going to be a much larger chunk of the HTML pre-work.*
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/HTML/html_challenges.md">Go to challenges</a>
+<a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
