@@ -26,7 +26,7 @@ HTML
 
 <img src="https://i.ibb.co/CB76VxC/Screen-Shot-2020-04-07-at-10-37-08-AM.png" alt="Screen-Shot-2020-04-07-at-10-37-08-AM" border="0">
 
-- Where is do you put the content the user will see on the page? Answer: D
+- Where do you put the content the user will see on the page? Answer: D
 - What tag houses _all_ of the HTML code you will write? Answer: A
 - Which tag holds the information that will be displayed in the tab of the browser? Answer: C
 - Where does all of the metadata (such as fonts, links to stylesheets, etc.) live? Answer: B
