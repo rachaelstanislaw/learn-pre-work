@@ -11,6 +11,7 @@ HTML
 ```
 **2. Quiz: The anatomy of a tag**
 
+*Developer notes:*
 - You'll need a form for this and some sort of test to check their answers
 - Use the diagram below to create a matching quiz
 
@@ -20,3 +21,12 @@ HTML
 - Where is the closing tag? Answer: C. Show an explaination about the importance of `</ >` when closing a tag
 - Where do you see camelCase? Answer: A & C. Show the examples of camelCase with multiple words.
 - Which section will be displayed as a string on your web page? Answer: B. 
+
+**3. Quiz: The anatomy of the HTML boiler plate**
+
+<img src="https://i.ibb.co/CB76VxC/Screen-Shot-2020-04-07-at-10-37-08-AM.png" alt="Screen-Shot-2020-04-07-at-10-37-08-AM" border="0">
+
+- Where is do you put the content the user will see on the page? Answer: D
+- What tag houses _all_ of the HTML code you will write? Answer: A
+- Which tag holds the information that will be displayed in the tab of the browser? Answer: C
+- Where does all of the metadata (such as fonts, links to stylesheets, etc.) live? Answer: B
