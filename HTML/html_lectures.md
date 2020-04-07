@@ -25,4 +25,4 @@ In your text editor (Atom of VS Code), if you type `HTML` and hit `tab`, the tex
 
 It is important to understand what each tag in the boiler plate if responsible for! But for now, we will be working inside of the `body` tag.
 
-*Developer Note: our in-app text editor will already be set to "HTML" where necessary. This is purely for their own knowledge.*
+*Developer Note: our in-app text editor will already be set to "HTML" where necessary. This is purely for their own knowledge. We are not spending a lot of time on the boiler plate, we just want to introduce it. Tags, indentation, and attributes are going to be a much larger chunk of the HTML pre-work.*
