@@ -30,3 +30,5 @@ HTML
 - What tag houses _all_ of the HTML code you will write? Answer: A
 - Which tag holds the information that will be displayed in the tab of the browser? Answer: C
 - Where does all of the metadata (such as fonts, links to stylesheets, etc.) live? Answer: B
+
+<a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
