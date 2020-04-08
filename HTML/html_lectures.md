@@ -28,10 +28,6 @@ It is important to understand what each tag in the boiler plate if responsible f
 
 *Developer Note: our in-app text editor will already be set to "HTML" where necessary. This is purely for their own knowledge. We are not spending a lot of time on the boiler plate, we just want to introduce it. Tags, indentation, and attributes are going to be a much larger chunk of the HTML pre-work.*
 
-<a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/HTML/html_challenges.md">Go to challenges</a>
-
-<a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
-
 **4. What is an HTML attribute?**
 
 HTML attributes are special words used inside the opening tag to control the element's behaviour. HTML attributes are a modifier of an HTML element type. For example, an `<a>` tag defines a hyperlink on your page. Techniaclly, the `<a>` tag is a complete tag on it's own. However, we need to add an `href` attribute to tell the hyperlink _where_ we want to go once it's clicked. An entire `<a>` tag will look something like this:
@@ -154,3 +150,6 @@ Great work! Practice coding out the HTML table below:
 
 _Developers note: this should take them to a challenge :)_
 
+<a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/HTML/html_challenges.md">Go to challenges</a>
+
+<a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
