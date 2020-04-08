@@ -46,10 +46,6 @@ _Developer note: you can check their solution by ensuring they have the same ope
 <p>Red is an apple, red is a cherry, red is a rose, and a ripe strawberry</p>
 ```
 
-<a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/HTML/html_lectures.md">Back to lectures</a>
-
-<a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
-
 **5. Table Challenge**
 
 Code the table below. Hint! You will need to do a little bit of research on `<th>` instead of `<td>`:
@@ -77,3 +73,7 @@ _Developer's note: solution:_
    </tr>
 </table>
 ```
+
+<a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/HTML/html_lectures.md">Back to lectures</a>
+
+<a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
