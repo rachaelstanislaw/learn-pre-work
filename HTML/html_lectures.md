@@ -1,5 +1,6 @@
 ## HTML Lecture Content
 
+### Module 1: Intro to HTML Elements & Structure ###
 **1. History of HTML**
 
 Hyper Text Markup Language: structure and content of a page. Not the styling, not the functionality. Basically the skeleton.
@@ -56,3 +57,100 @@ One more example. A `<p>` tag represents a _paragraph_. You can change how the t
 ```
 
 To recap, in all of our examples, the attribute is _modifying_ the HTML element in some way.
+
+### Module 2: Tables ###
+Let's use a `<table>` tag to build the table below!
+
+<img src="https://i.ibb.co/946kd1H/Screen-Shot-2020-04-08-at-10-25-17-AM.png" alt="Screen-Shot-2020-04-08-at-10-25-17-AM" border="0">
+
+1. First, we will need to code opening and closing `<table>` tags.
+
+```
+<table>
+</table>
+```
+
+2. Next we will need to tell the table how many rows we would like. We do this by _nesting_ `<tr>` (table row) tags inside of the `<table>` tags. The table we hope to make will have three rows.
+
+```
+<table>
+  <tr></tr>
+  <tr></tr> 
+  <tr></tr>
+</table>
+```
+
+3. Now we need to tell the table how many columns we will need. We do this my _nesting_ `<td>` (table data) tags inside of the `<tr>` tags. Each `<td>` tag represents a cell in the row. We know we want the table to be three cells wide. First things first though, we need to stay organized since our table is getting more complicated! We are going to drop all of the closing `</tr>` tags down to a new line _before_ adding in our `<td>`'s. This will make it very clear to us where exactly each row ends. 
+
+```
+<table>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr> 
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+```
+
+Look how clean that is! Each nested section is indented a single `tab` over and we can clearly see where all of our elements begin and end!
+
+4. We probably want our table to contain some data right? Let's drop some text inside of the cells in the table. 
+
+```
+<table>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr> 
+  <tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+  </tr>
+</table>
+```
+
+5. Lastly, we will want to add a border so that we can outline the table and all of it's cells. We do this by adding an _attribute_ to the opening `<table>` tag.
+
+```
+<table border=1>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr> 
+  <tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+  </tr>
+</table>
+```
+
+Great work! Practice coding out the HTML table below:
+
+<img src="https://i.ibb.co/tm0kdJd/Screen-Shot-2020-04-08-at-10-44-31-AM.png" alt="Screen-Shot-2020-04-08-at-10-44-31-AM" border="0">
+
+_Developers note: this should take them to a challenge :)_
+
