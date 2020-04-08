@@ -24,7 +24,7 @@ In your text editor (Atom of VS Code), if you type `HTML` and hit `tab`, the tex
 
 <img src="https://i.ibb.co/HgYhW3h/Screen-Shot-2020-04-06-at-11-46-29-AM.png" alt="Screen-Shot-2020-04-06-at-11-46-29-AM" border="0">
 
-It is important to understand what each tag in the boiler plate if responsible for! But for now, we will be working inside of the `body` tag.
+It is important to understand what each tag in the boiler plate is responsible for! But for now, we will be working inside of the `body` tag.
 
 *Developer Note: our in-app text editor will already be set to "HTML" where necessary. This is purely for their own knowledge. We are not spending a lot of time on the boiler plate, we just want to introduce it. Tags, indentation, and attributes are going to be a much larger chunk of the HTML pre-work.*
 
