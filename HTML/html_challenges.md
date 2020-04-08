@@ -10,7 +10,7 @@ HTML
 ```
 **2. Quiz: The anatomy of a tag**
 
-_Developer notes: You'll need a form for this and some sort of test to check their answers. Use the diagram below to create a matching quiz_
+_Developer notes: Use the diagram below to create a matching quiz_
 
 <img src="https://i.ibb.co/GvBbL3p/quiz.png" alt="quiz" border="0">
 
