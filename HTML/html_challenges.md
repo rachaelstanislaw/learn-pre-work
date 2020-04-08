@@ -49,7 +49,7 @@ Code the table below. Hint! You will need to do a little bit of research on `<th
 
 <img src="https://i.ibb.co/tm0kdJd/Screen-Shot-2020-04-08-at-10-44-31-AM.png" alt="Screen-Shot-2020-04-08-at-10-44-31-AM" border="0">
 
-_Developer notes:_
+_Developer notes: solution below_
 
 ```
 <table border=1>
