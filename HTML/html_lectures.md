@@ -30,3 +30,14 @@ It is important to understand what each tag in the boiler plate if responsible f
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/HTML/html_challenges.md">Go to challenges</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
+
+**4. What is an HTML attribute?**
+
+HTML attributes are special words used inside the opening tag to control the element's behaviour. HTML attributes are a modifier of an HTML element type. For example, an `<a>` tag defines a hyperlink on your page. Techniaclly, the `<a>` tag is a complete tag on it's own. However, we need to add an `href` attribute to tell the hyperlink _where_ we want to go once it's clicked. An entire `<a>` tag will look something like this:
+
+```
+HTML
+<a href="www.google.com"> Click this link to go to Google!</a>
+```
+
+Above, we see the `<a>` tag, the `href` attribute inside of the _opening_ tag, a URL defined inside of the `href` attribute, some text for the user to click on, and a closing `</a>` tag! Voila!
