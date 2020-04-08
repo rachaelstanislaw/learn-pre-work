@@ -31,6 +31,8 @@ _Developer notes: Use the diagram below to create a matching quiz_
 **4. Practice with attributes**
 
 - Create your first link! Write code that will link a user to the wikipedia site for Cholula hot sauce
+
+_Developer notes: solution below_
 ```
 <a href="https://en.wikipedia.org/wiki/Cholula_Hot_Sauce">More about Cholula!</a>
 ```
