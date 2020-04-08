@@ -36,7 +36,23 @@ It is important to understand what each tag in the boiler plate if responsible f
 HTML attributes are special words used inside the opening tag to control the element's behaviour. HTML attributes are a modifier of an HTML element type. For example, an `<a>` tag defines a hyperlink on your page. Techniaclly, the `<a>` tag is a complete tag on it's own. However, we need to add an `href` attribute to tell the hyperlink _where_ we want to go once it's clicked. An entire `<a>` tag will look something like this:
 
 ```
-<a href="www.google.com"> Click this link to go to Google!</a>
+<a href="www.google.com">Click this link to go to Google!</a>
 ```
 
 Above, we see the `<a>` tag, the `href` attribute inside of the _opening_ tag, a URL defined inside of the `href` attribute, some text for the user to click on, and a closing `</a>` tag! Voila!
+
+Let's look at another example. An `<img>` tag will render an image. But the tag alone cannot do the job, we need to add an attribute! Here, we will add a `src` attribute which will include the URL of the image we want to render. 
+
+```
+<img src="www.image_source_goes_here.com">
+```
+
+Notice how the `<img>` tag doesn't close? That's becuase it is a self-closing tag! Since there is no _inner HTML_ in an image, this tag doesn't required a closing tag. We will talk more about inner HTML later.
+
+One more example. A `<p>` tag represents a _paragraph_. You can change how the text in your paragraph looks by using a `style` attribute!
+
+```
+<p style="color:blue">I'm blue da ba dee da ba daa</p>
+```
+
+To recap, in all of our examples, the attribute is _modifying_ the HTML element in some way.
