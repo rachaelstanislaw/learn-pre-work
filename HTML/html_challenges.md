@@ -46,6 +46,9 @@ _Developer note: you can check their solution by ensuring they have the same ope
 ```
 
 _Developer notes: solution below_
+
+<img src="https://i.ibb.co/z8n88F1/Screen-Shot-2020-04-08-at-11-40-58-AM.png" alt="Screen-Shot-2020-04-08-at-11-40-58-AM" border="0">
+
 ```
 <p style="color:yellow">Yellow is a star, yellow is the sun, yellow is the moon when the day is done</p>
 <p style="color:blue">Blue is the ocean, blue is the sky, blue is the berries i put in my pie</p>
