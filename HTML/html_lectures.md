@@ -46,7 +46,7 @@ Let's look at another example. An `<img>` tag will render an image. But the tag 
 
 Notice how the `<img>` tag doesn't close? That's because it's a self-closing tag! Since there is no _inner HTML_ in an image, this tag doesn't required a closing tag. To take a deeper dive on inner HTML, make sure you join Jumpstart!
 
-One more example. A `<p>` tag represents a _paragraph_. You can change how the text in your paragraph looks by using a `style` attribute!
+One more example. A `<p>` tag represents a _paragraph_. You can change how the text in your paragraph looks by using a `style` attribute! The code below will change the font color to blue.
 
 ```
 <p style="color:blue">I'm blue da ba dee da ba daa</p>
