@@ -43,6 +43,13 @@ _Developer note: you can check their solution by ensuring they have the same ope
 <p>Red is an apple, red is a cherry, red is a rose, and a ripe strawberry</p>
 ```
 
+_Developer notes: solution below_
+```
+<p style="color:yellow">Yellow is a star, yellow is the sun, yellow is the moon when the day is done</p>
+<p style="color:blue">Blue is the ocean, blue is the sky, blue is the berries i put in my pie</p>
+<p style="color:red">Red is an apple, red is a cherry, red is a rose, and a ripe strawberry</p>
+```
+
 **5. Table Challenge**
 
 Code the table below. Hint! You will need to do a little bit of research on `<th>` instead of `<td>`:
