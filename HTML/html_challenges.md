@@ -2,8 +2,7 @@
 
 **1. Render your first h1!**
 
-- We do want to have our own text editor in the app to achieve this.
-- This can be done in a text editor and then dragged into chrome if all else fails. 
+_Developer notes: We do want to have our own text editor in the app to achieve this_
 
 ```
 HTML
@@ -11,9 +10,7 @@ HTML
 ```
 **2. Quiz: The anatomy of a tag**
 
-*Developer notes:*
-- You'll need a form for this and some sort of test to check their answers
-- Use the diagram below to create a matching quiz
+_Developer notes: You'll need a form for this and some sort of test to check their answers. Use the diagram below to create a matching quiz_
 
 <img src="https://i.ibb.co/GvBbL3p/quiz.png" alt="quiz" border="0">
 
@@ -52,7 +49,7 @@ Code the table below. Hint! You will need to do a little bit of research on `<th
 
 <img src="https://i.ibb.co/tm0kdJd/Screen-Shot-2020-04-08-at-10-44-31-AM.png" alt="Screen-Shot-2020-04-08-at-10-44-31-AM" border="0">
 
-_Developer's note: solution:_
+_Developer notes:_
 
 ```
 <table border=1>
