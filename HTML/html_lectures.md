@@ -36,7 +36,6 @@ It is important to understand what each tag in the boiler plate if responsible f
 HTML attributes are special words used inside the opening tag to control the element's behaviour. HTML attributes are a modifier of an HTML element type. For example, an `<a>` tag defines a hyperlink on your page. Techniaclly, the `<a>` tag is a complete tag on it's own. However, we need to add an `href` attribute to tell the hyperlink _where_ we want to go once it's clicked. An entire `<a>` tag will look something like this:
 
 ```
-HTML
 <a href="www.google.com"> Click this link to go to Google!</a>
 ```
 
