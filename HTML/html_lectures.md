@@ -6,7 +6,7 @@
 Hyper Text Markup Language: structure and content of a page. Not the styling, not the functionality. Basically the skeleton.
 In the early days of the internet, there was no standardized way of sending information and documents. Internet was mostly used for communication between colleges and universities as well as the military. If I wanted any formatting to happen with my document, I needed to be able to break that down to smaller pieces. Thus, HTML was made to handle it around 1989/1990.
 Some headers, some things are bolded or important italicized, some bullet points, bigger and smaller text, etc
-Eventually moved onto more broad uses. Remember myspace? Probably used HTML/CSS to edit your page
+Eventually moved onto more broad uses. Remember myspace? Probably used HTML/CSS to edit your page. Think of HTML as the skelton of your program!
 
 **2. What is a tag?**
 
