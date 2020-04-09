@@ -83,6 +83,27 @@ _Developer notes: solution below_
 </table>
 ```
 
+**6. List Challenge**
+
+Create the code for a webpage that will display the following recipe for simple cookies:
+
+<img src="https://i.ibb.co/NrKvBsP/Screen-Shot-2020-04-09-at-11-10-46-AM.png" alt="Screen-Shot-2020-04-09-at-11-10-46-AM" border="0">
+
+_Developer notes: solution below_
+
+```
+<ul>
+  <li>Easy cookies!
+    <ol>
+      <li>Cookie mix</li>
+      <li>Oil</li>
+      <li>Water</li>
+      <li>Eggs</li>
+    </ol>
+  </li>
+</ul>
+```
+
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/HTML/html_lectures.md">Back to lectures</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
