@@ -37,9 +37,16 @@ Coding is going to require a lot of comparisons! We can compare values a few dif
 - Equality operator: `==` or `===`
   - `==` converts the data values to the same data type before performing comparison through _type coercion_. 
   - `===` does not do any type coercion and returns true **only** if both values and types are identical for the two variables      being compared.
-- Greater than/less than: `>`, `<`, `>=`, `<=`
+  
+For example:
 
-
+```javascript
+4 == 4        // true
+7 == 4        // false
+"4" == 4      // true
+"4" === 4     // false
+```
+- You can also compare values with greater than/less than: `>`, `<`, `>=`, `<=`
 
 ### Module 2: Variables ###
 
