@@ -1,5 +1,32 @@
 ## JavaScript Content
 
 ### Module 1: Intro to JavaScript ###
-JavaScript is a powerful, flexible, and fast programming language. It was created in 1995 so it's an old, well documented programming language. Java and JavaScript are not the same language! JavaScript is most commonly used as a client side scripting language. This means that JavaScript code is written into an HTML page and when a user requests an HTML page with JavaScript in it, the script is sent to the browser (chrome) and it's up to the browser to do something with it.
+**1. What is JS?**
+
+JavaScript (often shortened to "JS") is a powerful, flexible, and fast programming language. It was created in 1995 so it's an old, well documented programming language. Java and JavaScript are not the same language! JavaScript is most commonly used as a client side scripting language. This means that JavaScript code is written into an HTML page and when a user requests an HTML page with JavaScript in it, the script is sent to the browser (chrome) and it's up to the browser to do something with it.
+
+**2. Primitive Data Types**
+
+A _data type_ is an attribute of data which tells the compiler or interpreter how the programmer intends to use the data. There are six primitive data types in JS:
+
+- Number
+- String
+- Boolean
+- Null
+- Undefined
+- Symbol
+
+In this module, we will focus on number, string, and boolean.
+
+- **Numbers** are exactly that! Numbers! JS numbers can be positive, negative, whole numbers, and floats (a number with fractional value such as 2.5).
+
+- **Strings** are anything wrapped in quotation marks! _All_ of the following examples are strings:
+
+```javascript
+"Salt and Pepper Kettle Chips"
+"True"
+"100"
+```
+
+- **Booleans** are the value of either _true_ or _false_.
 
