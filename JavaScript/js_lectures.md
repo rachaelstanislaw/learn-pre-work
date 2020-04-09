@@ -35,7 +35,11 @@ In this module, we will focus on number, string, and boolean.
 Coding is going to require a lot of comparisons! We can compare values a few different ways. 
 
 - Equality operator: `==` or `===`
+  - `==` converts the data values to the same data type before performing comparison through _type coercion_. 
+  - `===` does not do any type coercion and returns true **only** if both values and types are identical for the two variables      being compared.
 - Greater than/less than: `>`, `<`, `>=`, `<=`
+
+
 
 ### Module 2: Variables ###
 
