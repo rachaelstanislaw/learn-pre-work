@@ -150,6 +150,17 @@ Great work! Practice coding out the HTML table below:
 
 _Developers note: this should take them to a challenge :)_
 
+## Module 3: Lists ##
+Let's talk about listing items! In HTML, there are two ways to write a list. 
+
+There can be _ordered_ (numbered) lists:
+
+<img src="https://i.ibb.co/StHfrP2/Screen-Shot-2020-04-09-at-10-30-46-AM.png" alt="Screen-Shot-2020-04-09-at-10-30-46-AM" border="0">
+
+Or _unordered_ (bullet-point) lists:
+
+<img src="https://i.ibb.co/FmGFM95/Screen-Shot-2020-04-09-at-10-30-58-AM.png" alt="Screen-Shot-2020-04-09-at-10-30-58-AM" border="0">
+
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/HTML/html_challenges.md">Go to challenges</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
