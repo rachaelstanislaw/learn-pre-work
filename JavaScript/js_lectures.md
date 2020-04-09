@@ -30,7 +30,7 @@ In this module, we will focus on number, string, and boolean.
 
 - **Booleans** are the value of either _true_ or _false_.
 
-**3. Comparison Operators **
+**3. Comparison Operators**
 
 Coding is going to require a lot of comparisons! We can compare values a couple different ways. 
 
@@ -47,7 +47,7 @@ Coding is going to require a lot of comparisons! We can compare values a couple 
 
 Hey, what was that `!` ?? The `!` above is called a _bang operator_. The bang operator essentially says "String 4 is _not_ equal to number 4" which is true.
 
-**4. Relational Operators **
+**4. Relational Operators**
 
 You can also compare values with Relational Operators: `>`, `<`, `>=`, `<=`
 
