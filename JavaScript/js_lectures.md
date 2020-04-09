@@ -65,7 +65,7 @@ You can also compare values with Relational Operators: `>`, `<`, `>=`, `<=`
 -4 <= 0.8     // true
 ```
 
-**5. Logical Operators **
+**5. Logical Operators**
 
 - And: `&&`, checks if _both_ values meet a certain criteria
 - Or: `||`, checks if _at least one_ value meets a certain criteria
