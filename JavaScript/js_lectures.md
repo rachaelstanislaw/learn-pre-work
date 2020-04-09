@@ -69,12 +69,12 @@ You can also compare values with Relational Operators: `>`, `<`, `>=`, `<=`
 
 - And: `&&`, checks if _both_ values meet a certain criteria
 - Or: `||`, checks if _at least one_ value meets a certain criteria
-- Not: `!` (this should be familiar!), negates the proceeding statement
+- Not: `!` (this should be familiar), negates the proceeding statement
 
 ```javascript
 // and
-true && false       // false
-true && true        // true
+4 && 7 > 1          // true
+11 && 12 < 6        //false
 
 // or
 true  || false      // true
