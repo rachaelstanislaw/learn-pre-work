@@ -36,7 +36,7 @@ Coding is going to require a lot of comparisons! We can compare values a couple 
 
 - Equality operator: `==` or `===`
   - `==` converts the data values to the same data type before performing comparison through _type coercion_. 
-  - `===` does not do any type coercion and returns true **only** if both values and types are identical for the two variables      being compared. For example:
+  - `===` does not do any type coercion and returns **true** _only_ if both values and types are identical. For example:
 ```javascript
 4 == 4        // true
 7 == 4        // false
