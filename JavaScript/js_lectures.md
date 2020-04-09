@@ -30,6 +30,17 @@ In this module, we will focus on number, string, and boolean.
 
 - **Booleans** are the value of either _true_ or _false_.
 
+**3. Comparison Operators**
+
+Coding is going to require a lot of comparisons! We can compare values a few different ways. 
+
+- Equality operator: `==` or `===`
+- Greater than/less than: `>`, `<`, `>=`, `<=`
+
+### Module 2: Variables ###
+
+
+
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md">Go to challenges</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
