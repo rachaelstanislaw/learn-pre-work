@@ -30,9 +30,9 @@ In this module, we will focus on number, string, and boolean.
 
 - **Booleans** are the value of either _true_ or _false_.
 
-**3. Comparison Operators**
+**3. Comparison Operators **
 
-Coding is going to require a lot of comparisons! We can compare values a few different ways. 
+Coding is going to require a lot of comparisons! We can compare values a couple different ways. 
 
 - Equality operator: `==` or `===`
   - `==` converts the data values to the same data type before performing comparison through _type coercion_. 
@@ -42,8 +42,52 @@ Coding is going to require a lot of comparisons! We can compare values a few dif
 7 == 4        // false
 "4" == 4      // true
 "4" === 4     // false
+"4" !== 4     // true
 ```
-- You can also compare values with greater than/less than: `>`, `<`, `>=`, `<=`
+
+Hey, what was that `!` ?? The `!` above is called a _bang operator_. The bang operator essentially says "String 4 is _not_ equal to number 4" which is true.
+
+**4. Relational Operators **
+
+You can also compare values with Relational Operators: `>`, `<`, `>=`, `<=`
+
+```javascript
+// greater than
+2 > 0         // true
+
+// less than
+4 < 8         // true
+
+// greater than or equal to
+0 >= 2        // false
+
+// less than or equal to
+-4 <= 0.8     // true
+```
+
+**5. Logical Operators **
+
+- And: `&&`, checks if _both_ values meet a certain criteria
+- Or: `||`, checks if _at least one_ value meets a certain criteria
+- Not: `!` (this should be familiar!), negates the proceeding statement
+
+```javascript
+// and
+true && false // false
+true && true // true
+
+// or
+true  || false // true
+false || false // false
+
+// not
+!true // false
+!false // true
+true != false // true
+true != true // false
+!(true && false) // true
+!(true && false) // true
+```
 
 ### Module 2: Variables ###
 
