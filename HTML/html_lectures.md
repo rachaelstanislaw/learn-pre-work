@@ -161,6 +161,104 @@ Or _unordered_ (bullet-point) lists:
 
 <img src="https://i.ibb.co/FmGFM95/Screen-Shot-2020-04-09-at-10-30-58-AM.png" alt="Screen-Shot-2020-04-09-at-10-30-58-AM" border="0">
 
+Let's walk through the process. Say we want to create a seating list for a party at our restaurant. We have 2 tables, and we want to have 3 people at every table.
+
+- First, we know we want an _ordered list_ for all of the tables. We start an ordered list with the `<ol>` tag:
+
+```
+<ol>
+</ol>
+```
+
+- Now we need to add the tables to our list. We create _list items_ with the `<li>` tag.
+
+```
+<ol>
+  <li></li>
+  <li></li>
+</ol>
+```
+
+- At this point, our table has no data. We will want to add our table names:
+
+```
+<ol>
+  <li>Patio</li>
+  <li>Dining Room</li>
+</ol>
+```
+
+Our list is starting to take shape!
+
+<img src="https://i.ibb.co/gtmZ1b2/Screen-Shot-2020-04-09-at-10-43-58-AM.png" alt="Screen-Shot-2020-04-09-at-10-43-58-AM" border="0">
+
+- Now it's time to assign guests to tables. We can do that by nesting a _unordered lists_ inside of out ordered lists. We will start by dropping the _closing_ `</li>` tags down to the next line to make room for our nested list. Like in the Tables Module, we want our code to be very organized and clean. 
+
+```
+<ol>
+  <li>Patio
+  </li>
+  <li>Dining Room
+  </li>
+</ol>
+```
+
+- Between our opening and closing `<li>` tags, we are going to start new _unordered lists_. We already know that each table will have three guests. We can go ahead and add three `<li>`'s (list items) inside of each `<ul>` (unordered list):
+
+```
+<ol>
+<ol>
+  <li>Patio
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
+  <li>Dining Room
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </li>
+</ol>
+```
+
+Looking good!
+
+<img src="https://i.ibb.co/0tVqy4X/Screen-Shot-2020-04-09-at-10-51-16-AM.png" alt="Screen-Shot-2020-04-09-at-10-51-16-AM" border="0">
+
+- Finally, we can add the guests' names to each `<li>` within the `<ul>`'s:
+
+```
+<ol>
+  <li>Patio
+    <ul>
+      <li>Jose</li>
+      <li>Gina</li>
+      <li>Blanca</li>
+    </ul>
+  </li>
+  <li>Dining Room
+    <ul>
+      <li>Heather</li>
+      <li>Sean</li>
+      <li>Macy</li>
+    </ul>
+  </li>
+</ol>
+```
+
+Woo! That's a good lookin' list!
+
+<img src="https://i.ibb.co/7jv0Fry/Screen-Shot-2020-04-09-at-10-53-21-AM.png" alt="Screen-Shot-2020-04-09-at-10-53-21-AM" border="0">
+
+Now you try!
+
+_Developer notes: this should lead to a challenge :)_
+
+
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/HTML/html_challenges.md">Go to challenges</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
