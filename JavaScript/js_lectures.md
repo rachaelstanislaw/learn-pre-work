@@ -73,20 +73,20 @@ You can also compare values with Relational Operators: `>`, `<`, `>=`, `<=`
 
 ```javascript
 // and
-true && false // false
-true && true // true
+true && false       // false
+true && true        // true
 
 // or
-true  || false // true
-false || false // false
-
+true  || false      // true
+false || false      // false
+  
 // not
-!true // false
-!false // true
-true != false // true
-true != true // false
-!(true && false) // true
-!(true && false) // true
+!true               // false
+!false              // true
+true != false       // true
+true != true        // false
+!(true && false)    // true
+!(true && false)    // true
 ```
 
 ### Module 2: Variables ###
