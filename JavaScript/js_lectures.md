@@ -91,7 +91,21 @@ true != true        // false
 
 ### Module 2: Variables ###
 
+JavaScript variables are containers for storing data values. They are re-usable and re-assignable in most cases. Think of a variable as a piece of Tupperware...
 
+My Tupperware is labeled "Lunch." One day, I decided to pack myself a sandwich 
+<img src="https://i.ibb.co/10dZSGG/Screen-Shot-2020-04-09-at-5-36-51-PM.png" alt="Screen-Shot-2020-04-09-at-5-36-51-PM" border="0">
+
+When 12 o'clock rolled around and I opened up my Tupperware, a sandwich was inside
+<img src="https://i.ibb.co/xS5qrX1/Screen-Shot-2020-04-09-at-5-36-53-PM.png" alt="Screen-Shot-2020-04-09-at-5-36-53-PM" border="0">
+
+I can open my lunch container as many times as I'd like throughout the day and there will always be a sandwich inside. That is, until I eat it ;) 
+
+This morning comes and I decide I would like tacos for lunch instead of a sandwich. I use my same container labeled "Lunch" and replace its contents with tacos. 
+<img src="https://i.ibb.co/6DQMJxB/Screen-Shot-2020-04-09-at-5-36-59-PM.png" alt="Screen-Shot-2020-04-09-at-5-36-59-PM" border="0">
+
+Once again, it's lunchtime. I open my lunch container to find tacos. I have successfully re-assigned my variable!
+<img src="https://i.ibb.co/W2wNvmq/Screen-Shot-2020-04-09-at-5-37-00-PM.png" alt="Screen-Shot-2020-04-09-at-5-37-00-PM" border="0">
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md">Go to challenges</a>
 
