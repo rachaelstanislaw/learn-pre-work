@@ -127,6 +127,7 @@ lunch                     // "taco"
 
 So far we have covered `==` and `===` for comparing data. But a single `=` _assigns value_.
 
+_Developer notes: small activities after this module_
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md">Go to challenges</a>
 
