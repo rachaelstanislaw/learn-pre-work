@@ -107,7 +107,7 @@ But today I decided I would like tacos for lunch instead of a sandwich. I used m
 
 <img src="https://i.ibb.co/6DQMJxB/Screen-Shot-2020-04-09-at-5-36-59-PM.png" alt="Screen-Shot-2020-04-09-at-5-36-59-PM" border="0">
 
-Once again, it's lunchtime. I opened my lunch container to find tacos. I successfully re-assigned my variable!
+Once again, it's lunchtime. I opened my lunch container to find tacos. There was no need for me to create more dishes and start a new lunch container. I reused the orignial one! I successfully re-assigned my variable!
 
 <img src="https://i.ibb.co/W2wNvmq/Screen-Shot-2020-04-09-at-5-37-00-PM.png" alt="Screen-Shot-2020-04-09-at-5-37-00-PM" border="0">
 
