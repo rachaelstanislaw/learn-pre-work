@@ -125,9 +125,40 @@ lunch = "taco"            // reassign variable data with (the name of your varia
 lunch                     // "taco"
 ```
 
-So far we have covered `==` and `===` for comparing data. But a single `=` _assigns value_.
+So far we have covered `==` and `===` for comparing data. But a single `=` _assigns value_. Also, variable names are **lowercase**!
 
 _Developer notes: small activities after this module_
+
+## Module 3: Conditionals ##
+
+A conditional statement (also called an if/else statement or a decision tree), is a way to tell your program how to behave based on certain circumstances.
+
+- First, we need to declare a condition to be met. We do that by writing `if` immediately followed by a pair of parentheses `()`. We are going to put our condition inside of the parentheses:
+
+```javascript
+if(!hungry)
+```
+
+- Now we will add a new line to this code that tells our program what to do if the condition is _true_. We do this by adding an _opening curly brace_ `{` before dropping to the next line and adding our behavior. Once we add our desired behavior, we drop down one more line and add a _closing curly brace_ `}`:
+
+```javascript
+if(!hungry) {
+  "keep coding!"
+  }
+```
+The code above is essentially saying "If _not_ hungry is true, keep coding!"
+
+- So what happens if `!hungry` is false? Let's add a little more logic in the form of an `else` statement. Hence `if/else` statements ;). Again, we open up our curly braces, write what we want our program to do, then close the curly braces on the following line:
+
+```javascript
+if(!hungry) {
+  "keep coding!"
+} else {
+  "eat a snack!"
+}
+```
+
+Let's look at what to do when the choices for our program are not so black and white.
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md">Go to challenges</a>
 
