@@ -101,9 +101,9 @@ When 12 o'clock rolled around and I opened up my Tupperware, a sandwich was insi
 
 <img src="https://i.ibb.co/xS5qrX1/Screen-Shot-2020-04-09-at-5-36-53-PM.png" alt="Screen-Shot-2020-04-09-at-5-36-53-PM" border="0">
 
-Every time I opened up my lunch container I saw a sandwich. It did not change. 
+Every time I opened up my lunch container throughout the day, I saw a sandwich. It did not change. 
 
-But this I decided I would like tacos for lunch instead of a sandwich. I used my same container labeled "Lunch" and replaced its contents with tacos 
+But today I decided I would like tacos for lunch instead of a sandwich. I used my same container labeled "Lunch" and replaced its contents with tacos 
 
 <img src="https://i.ibb.co/6DQMJxB/Screen-Shot-2020-04-09-at-5-36-59-PM.png" alt="Screen-Shot-2020-04-09-at-5-36-59-PM" border="0">
 
