@@ -93,7 +93,7 @@ true != true        // false
 
 JavaScript variables are containers for storing data values. They are re-usable and re-assignable in most cases. Think of a variable as a piece of Tupperware...
 
-My Tupperware is labeled "Lunch." One day, I decided to pack myself a sandwich 
+My Tupperware is labeled "Lunch." Yesterday, I decided to pack myself a sandwich 
 
 <img src="https://i.ibb.co/10dZSGG/Screen-Shot-2020-04-09-at-5-36-51-PM.png" alt="Screen-Shot-2020-04-09-at-5-36-51-PM" border="0">
 
