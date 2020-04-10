@@ -101,13 +101,13 @@ When 12 o'clock rolled around and I opened up my Tupperware, a sandwich was insi
 
 <img src="https://i.ibb.co/xS5qrX1/Screen-Shot-2020-04-09-at-5-36-53-PM.png" alt="Screen-Shot-2020-04-09-at-5-36-53-PM" border="0">
 
-I can open my lunch container as many times as I'd like throughout the day and there will always be a sandwich inside. That is, until I eat it ;) 
+Every time I opened up my lunch container I saw a sandwich. It did not change. 
 
-This morning comes and I decide I would like tacos for lunch instead of a sandwich. I use my same container labeled "Lunch" and replace its contents with tacos 
+But this I decided I would like tacos for lunch instead of a sandwich. I used my same container labeled "Lunch" and replaced its contents with tacos 
 
 <img src="https://i.ibb.co/6DQMJxB/Screen-Shot-2020-04-09-at-5-36-59-PM.png" alt="Screen-Shot-2020-04-09-at-5-36-59-PM" border="0">
 
-Once again, it's lunchtime. I open my lunch container to find tacos. I have successfully re-assigned my variable!
+Once again, it's lunchtime. I opened my lunch container to find tacos. I successfully re-assigned my variable!
 
 <img src="https://i.ibb.co/W2wNvmq/Screen-Shot-2020-04-09-at-5-37-00-PM.png" alt="Screen-Shot-2020-04-09-at-5-37-00-PM" border="0">
 
