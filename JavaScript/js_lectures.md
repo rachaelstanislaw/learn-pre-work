@@ -111,6 +111,23 @@ Once again, it's lunchtime. I opened my lunch container to find tacos. There was
 
 <img src="https://i.ibb.co/W2wNvmq/Screen-Shot-2020-04-09-at-5-37-00-PM.png" alt="Screen-Shot-2020-04-09-at-5-37-00-PM" border="0">
 
+Let's look at what this looks like in code:
+
+```javascript
+var lunch = "sandwich"    // assign a variable using the (keyword "var") + (the name of your variable) + (a single =) + (data)
+
+lunch                     // "sandwich"
+lunch                     // "sandwich"
+lunch                     // "sandwich"
+
+lunch = "taco"            // reassign variable data with (the name of your variable) + (a single =) + (data)
+
+lunch                     // "taco"
+```
+
+So far we have covered `==` and `===` for comparing data. But a single `=` _assigns value_.
+
+
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md">Go to challenges</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
