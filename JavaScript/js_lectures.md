@@ -294,6 +294,7 @@ var arrayOfNumbers = [5, 3, 2, 9, 8]
 - So on an so forth until the end of the array...
 - Final result should be `15, 9, 6, 27, 24`
 
+## Module 6: Functions ##
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md">Go to challenges</a>
 
