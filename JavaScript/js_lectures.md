@@ -344,6 +344,17 @@ multByThree(arrayOfNumbers3)           // For each array that's passed into the 
 
 _Developer notes: Quick function practice!_
 
+Not all functions will require an argument. Here's a simple example:
+
+```javascript
+sayHello = () => {
+  console.log("Hello there! I'm a computer!")
+}
+
+sayHello()
+```
+This code doesn't need access to outside information to run normally. To invoke the function, we simply call it's name followed by parentheses.
+
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md">Go to challenges</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
