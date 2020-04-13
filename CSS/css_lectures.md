@@ -14,7 +14,7 @@ CSS, or Cascading Stylesheets, hold all the code that makes your webpage beautif
 <a href="https://amandamartocchio.com/">Amanda Martocchio Architecture</a>
 
 
-<img src="/assets/mikiya">
+<img src="/assets/mikiya.gif">
 <a href="https://www.mikiyakobayashi.com/">Mikiya Kobayashi</a>
 
 
