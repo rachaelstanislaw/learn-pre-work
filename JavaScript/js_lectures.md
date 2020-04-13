@@ -21,10 +21,14 @@ In this module, we will focus on number, string, and boolean.
 - **Numbers** are exactly that! Numbers! JS numbers can be positive, negative, whole numbers, and floats (a number with fractional value such as 2.5).
 
 We can perform basic math with numbers in JS
-- Addition: `4 + 100`
-- Subtraction: `40 - 6`
-- Multiplication: `76 * 2`
-- Division: `9 / 3`
+
+Addition: `4 + 100`
+
+Subtraction: `40 - 6`
+
+Multiplication: `76 * 2`
+
+Division: `9 / 3`
 
 - **Strings** are anything wrapped in quotation marks! _All_ of the following examples are strings:
 
