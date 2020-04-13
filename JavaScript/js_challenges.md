@@ -75,7 +75,7 @@ secondName = (array) => {
 secondName(names1)            // 3. "Jenna"
 secondName(names2)            // 4. "Rodrigo"
 ```
-- Write a function called `wildWest` that accepts any number greater than 0 as an argument. The function will return `"Darn tootin'!"` if the argument is 1, `"Get yer ice cold sarsaparilla!"` if the argument is 2, or `"This town aint big enough for the both of us"` if the argument is anything else. Hint: you will need `if else` conditionals in your function! Feel free to copy an dpaste the return values. Don't forget to add the function call at the end.
+- Write a function called `wildWest` that accepts any number greater than 0 as an argument. The function will return `"Darn tootin'!"` if the argument is 1, `"Get yer ice cold sarsaparilla!"` if the argument is 2, or `"This town aint big enough for the both of us"` if the argument is anything else. Hint: you will need `if else` conditionals in your function! Feel free to copy and paste the return values. Don't forget to add the function call at the end.
 ```javascript
 wildWest = (num) => {
   if(num === 1) {
