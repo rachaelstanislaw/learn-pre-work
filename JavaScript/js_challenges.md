@@ -43,9 +43,9 @@ myFish    // "Speedy"
 - Fill in this loop that will only return the number 10. Hint: you will need to incorporate an `if` conditional! What will be the final return?
 
 ```javascript
-for(let i = 0; i < numbers.length; i_1_) {   // 1. ++
-  if(___2___[i] === 10) {                    // 2. numbers
-    console.log(numbers_3_);                 // 3. [i]
+for(let i = 0; i < numbers.length; i__) {   // 1. ++
+  if(______[i] === 10) {                    // 2. numbers
+    console.log(numbers__);                 // 3. [i]
   }                                          // 4. final return is: 10 10 10
 }
 ```
