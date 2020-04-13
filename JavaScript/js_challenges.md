@@ -10,7 +10,7 @@ Practice with this arithmetic:
 - Subtract 2 from 21      // 19
 - Divide 99 by 3          // 33
 
-**Variable Practice**
+**2. Variable Practice**
 
 - Set a variable called `myDog` to equal `Bolt`
 - Set another variable to `myCat` to equal `Duchess`
@@ -36,11 +36,21 @@ myCat     // "Duchess"
 myFish    // "Speedy"
 ```
 
-**Understaning Loops/Iteration**
+**3. Understaning Loops/Iteration**
 
+- The first loop should return: `0, 1, 2, 3, 4`
+- The second loop should return: `10, 9, 8, 7, 6, 5, 4, 3, 2, 1`
+- Fill in this loop that will only return the number 10. Hint: you will need to incorporate an `if` conditional! What will be the final return?
 
+```javascript
+for(let i = 0; i < numbers.length; i_1_) {   // 1. ++
+  if(___2___[i] === 10) {                    // 2. numbers
+    console.log(numbers_3_);                 // 3. [i]
+  }                                          // 4. final return is: 10 10 10
+}
+```
 
-**Function Practice**
+**4. Function Practice**
 
 
 
