@@ -45,8 +45,8 @@ Division: `9 / 3`
 Coding is going to require a lot of comparisons! We can compare values a couple different ways. 
 
 - Equality operator: `==` or `===`
-  - `==` converts the data values to the same data type before performing comparison through _type coercion_. 
-  - `===` does not do any type coercion and returns **true** _only_ if both values and types are identical. For example:
+  - `==` converts the data values to the same data type before performing comparison through _type coercion_. This is an _Abstrct Equality Comparison_
+  - `===` does not do any type coercion and returns **true** _only_ if both values and types are identical. This is a _Strict Equality Comparison_. For example:
 ```javascript
 4 == 4        // true
 7 == 4        // false
