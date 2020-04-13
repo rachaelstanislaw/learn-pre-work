@@ -10,7 +10,17 @@ Practice with this arithmetic:
 - Subtract 2 from 21 --> 19
 - Divide 99 by 3 --> 33
 
-**2. Variable Practice**
+**2. Quiz! Check for understanding**
+
+_Developers note: we will need a mtaching quiz here_
+
+Match the following:
+
+`=` : Assigns value
+`==` : Abstract Equality Comparison
+`===` : Strict Equality Comparison 
+
+**3. Variable Practice**
 
 - Set a variable called `myDog` to equal `Bolt`
 - Set another variable to `myCat` to equal `Duchess`
@@ -36,7 +46,7 @@ myCat     // "Duchess"
 myFish    // "Speedy"
 ```
 
-**3. Understaning Loops/Iteration**
+**4. Understaning Loops/Iteration**
 
 - The first loop should return: `0, 1, 2, 3, 4`
 - The second loop should return: `10, 9, 8, 7, 6, 5, 4, 3, 2, 1`
@@ -52,7 +62,7 @@ for(let i = 0; i < numbers.length; i__) {   // 1. ++
 }
 ```
 
-**4. Function Practice**
+**5. Function Practice**
 
 - Write a function called `niceWork` that returns `"High five!"` every time it is invoked. Don't forget to add the function call at the end.
 ```javascript
