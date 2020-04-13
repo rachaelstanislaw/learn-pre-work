@@ -174,6 +174,8 @@ The `else if` statement has a condition that has to be met in order for the bloc
 
 ## Module 4: Arrays ##
 
+**1. Intro to arrays** 
+
 Until now, we've only dealt with one piece of information at a time: one number, one string, one element on a page. But, often we need to group things together. For example, what if we wanted to have a list of the months of the year? We'd use an array, which is just a list of things grouped together.
 
 Here are a few examples of arrays assigned to variables:
@@ -198,6 +200,56 @@ In JS, index starts at 0
 var letters = ["l", "e", "a", "r", "n", " ", "S", "D"]
 ```
 What letter is at index 2? ^^^
+
+**2. Accessing Elements in Arrays**
+
+To access the values stored inside of your array, you will need to name the array you're accessing, followed by the _index_ of the value you want to extract. Here's an example:
+
+```javascript
+var names = ["Little Red Riding Hood", "Grandma", "Big Bad Wolf"]
+
+names[2]      // "Big Bad Wolf"
+names[0]      // "Little Red Riding Hood"
+```
+
+## Module 5: For Loops ##
+
+Loops are used when you'd like to do something to each element of an array. What if I had an array of numbers and wanted to mulitply all of the numbers by 3? One option is to use a for loop. There are more optimized solutions to this example which we will talk about later in the program. But it is important to understand how looping works.
+
+A for loop _iterates_ (typically through an array). On each iteration of the loop, it will do something to the current index before moving on to the next. If this isn't making sense yet, that's ok! 
+
+Let's look at the anatomy of a `for loop` :
+- Where the count starts. What index of the array should I begin my loop on?
+```javascript
+for(let i = 0; ...
+```
+- How many iterations we want the loop to go through. This example says, "Do the loop as long as the current index is less than 5"
+```javascript
+for(let i = 0; i < 5; ...
+```
+- What to do after each iteration. This example with `i++` says, "Keep iterating _incrementally_"
+```javascript
+for(let i = 0; i < 5; i++) ...
+```
+- The thing you'd like to happen on each iteration
+```javascript
+for(let i = 0; i < 5; i++) {
+  console.log(i)
+}
+```
+What do you think the code above does?
+
+_Developer notes: small check for understanding here_
+
+How about this one?
+```javascript
+for(let i = 10; i > 0; i--) {
+  console.log(i)
+}
+```
+`i--` says, "Keep iterating _decrementally_"
+
+_Developer notes: small check for understanding here_
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md">Go to challenges</a>
 
