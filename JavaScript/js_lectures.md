@@ -158,7 +158,46 @@ if(!hungry) {
 }
 ```
 
-Let's look at what to do when the choices for our program are not so black and white.
+Right now, our program says "`if` _this_ is true, do something. Otherwise, do something _else_. Our `else` statement acts as a catch-all for _any thing_ that doesn't meet the `if` requirement. Let's look at what to do when the choices for our program are not so black and white. We do this by adding an `else if` statement before the `else`:
+
+```javascript
+if(hungry) {
+  "eat a snack!"
+} else if(sleepy) {
+  "take a nap!"
+} else {
+  "keep coding!"
+}
+```
+
+The `else if` statement has a condition that has to be met in order for the block of code `"take a nap!"` to be run so it's syntax is very similar to that of the `if` statement. You can have as many `else if`'s as you'd like to check for as many conditions as you want! However, there can only be _one_ `if` and _one_ `else`.
+
+## Module 4: Arrays ##
+
+Until now, we've only dealt with one piece of information at a time: one number, one string, one element on a page. But, often we need to group things together. For example, what if we wanted to have a list of the months of the year? We'd use an array, which is just a list of things grouped together.
+
+Here are a few examples of arrays assigned to variables:
+
+```javascript
+var months = ["January", "February", "March", "April", "May"]
+
+var numbers = [17, 15, 14, 3, 5, 10]
+
+var combined = [17, "January", 15, "February", 14, "March", 3, "April", 5, "May", 10]
+```
+
+Notice that strings in an array have quotes, but numbers don't need them.
+
+The anatomy of an array consists of the following characteristics:
+- Brackets `[ ]` with a comma in between each item
+- Value in between each commma
+- A hidden _index_ that exists behind each value
+
+In JS, index starts at 0
+```javascript
+var letters = ["l", "e", "a", "r", "n", " ", "S", "D"]
+```
+What letter is at index 2? ^^^
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md">Go to challenges</a>
 
