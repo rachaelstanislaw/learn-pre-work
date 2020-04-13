@@ -17,7 +17,9 @@ _Developers note: we will need a mtaching quiz here_
 Match the following:
 
 `=` : Assigns value
+
 `==` : Abstract Equality Comparison
+
 `===` : Strict Equality Comparison 
 
 **3. Variable Practice**
