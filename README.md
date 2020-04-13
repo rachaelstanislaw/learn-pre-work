@@ -17,3 +17,8 @@ Each file will have:
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_lectures.md"> JS Lecture Content </a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md"> JS Challenges </a>
+
+### 3. CSS  
+<a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_lectures.md"> CSS Lecture Content </a>
+
+<a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css"> CSS Challenges </a>
