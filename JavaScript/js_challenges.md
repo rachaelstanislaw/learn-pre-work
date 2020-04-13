@@ -5,10 +5,10 @@
 _Developer notes: will need an IDE of sorts or chrome console for this one_
 
 Practice with this arithmetic:
-- Multiply 77 times 38    // 2926
-- Add 6.7 and -40         // -33.3
-- Subtract 2 from 21      // 19
-- Divide 99 by 3          // 33
+- Multiply 77 times 38 --> 2926
+- Add 6.7 and -40 --> -33.3
+- Subtract 2 from 21 --> 19
+- Divide 99 by 3 --> 33
 
 **2. Variable Practice**
 
