@@ -296,6 +296,54 @@ var arrayOfNumbers = [5, 3, 2, 9, 8]
 
 ## Module 6: Functions ##
 
+According to W3 Schools, a JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when it is _invoked_ by a _function call_. Functions should be written to be as reusable as possible.
+
+Let's take the example from the last module. We had a loop that could iterate through `arrayOfNumbers` and produce the contents multiplied by 3. But what if we wanted to mulitply the elements of ten other arrays by 3? We would have to re-write the loop ten more times to accommodate each array. What a pain! 
+
+But alas! Look to the sky! Is that a bird? Or a plane?? No!! It's a _function_, here to save you from your key-stroke woes!
+
+Functions wrap logic into reusable machines, and they are awesome. Let's take a look at the anatomy of a function:
+
+- The _function declaration_ is the name of the function
+```javascript
+multByThree ...
+```
+- The _arguments_ your function will take. Arguments are outside information that the function will need access to in order to run. Here, we are using a variable `array` to represent any array that we would like to give our function access to. We are not hard-coding in a specific array.
+```javascript
+multByThree = (array) ...
+```
+- The _fat arrow_ is a concise syntax for writing functions. We will talk more about other ways that you may see functions written, as well as more info on _fat arrows_ or _arrow functions_ in the program. Here, we will write our fat arrow followed by curly braces to emcompass our function logic
+```javascript
+multByThree = (array) => {
+}
+```
+- All of our logic must fall inside of the function's openging and closing curly braces. We will use the for loop from the previous module. But this time, it will be reusable. See if you can spot the differences!
+```javascript
+multByThree = (array) => {
+  for(let i = 0; i < array.length; i++) {
+    console.log(array[i] * 3)
+  }
+}
+```
+- Last but certainly not least, we will need to _invoke_ our function. Right now, it's a machine in our code just waiting to be run! We do this by calling the name of the function followed by parentheses. If the function requires an argument (this one does!), the argument will go between the parentheses
+```javascript
+var arrayOfNumbers1 = [5, 3, 2, 9, 8]   // We have added some arrays that we would like to run through the function
+var arrayOfNumbers2 = [4, 10, 6, 3]
+var arrayOfNumbers3 = [444, 2.5, 7, -4]
+
+multByThree = (array) => {
+  for(let i = 0; i < array.length; i++) {
+    console.log(array[i] * 3)
+  }
+}
+
+multByThree(arrayOfNumbers1)           // Between the (), we write the name of the array we want the function to act on
+multByThree(arrayOfNumbers2)           // We are calling the funciton multiple times on multiple arrays
+multByThree(arrayOfNumbers3)           // For each array that's passed into the function, we get a different result!
+``` 
+
+_Developer notes: Quick function practice!_
+
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md">Go to challenges</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
