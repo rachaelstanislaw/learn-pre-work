@@ -214,9 +214,9 @@ names[0]      // "Little Red Riding Hood"
 
 ## Module 5: For Loops ##
 
-Loops are used when you'd like to do something to each element of an array. What if I had an array of numbers and wanted to mulitply all of the numbers by 3? One option is to use a for loop. There are more optimized solutions to this example which we will talk about later in the program. But it is important to understand how looping works.
+Quick note: In the following sections we will be referring to something called `console.log()`. The `console.log()` is a function that logs a message to a debugging console for the developer. It's a very common way of testing out and debugging your code. For the following modules, think of it as printing an answer for you!
 
-A for loop _iterates_ (typically through an array). On each iteration of the loop, it will do something to the current index before moving on to the next. If this isn't making sense yet, that's ok! 
+A for loop _iterates_ (typically through an array). On each iteration of the loop, it will do something to the current index before moving on to the next. If this isn't making sense yet, that's ok! We will practice with iteration a lot, it's just important to become familiar with how looping works ;)
 
 Let's look at the anatomy of a `for loop` :
 - Where the count starts. What index of the array should I begin my loop on?
@@ -250,6 +250,40 @@ for(let i = 10; i > 0; i--) {
 `i--` says, "Keep iterating _decrementally_"
 
 _Developer notes: small check for understanding here_
+
+Great! Loops are often used when you'd like to do something to each element of an array. What if I had an array of numbers and wanted to mulitply all of the numbers by 3? One option is to use a for loop. There are more optimized solutions to this example which we will talk about later in the program.
+
+```javascript
+var arrayOfNumbers = [5, 3, 2, 9, 8]
+for(let i = 0; i < arrayOfNumbers.length; i++) {
+  console.log(arrayOfNumbers[i] * 3)
+}
+```
+
+- The first iteration of the loop starts at index 0
+```javascript
+var arrayOfNumbers = [5, 3, 2, 9, 8]
+                      ^
+                      // At index 0, we console.log() the current value * 3
+                      // This prints 15
+```
+- The second iteration of the loop moves on to index 1
+```javascript
+var arrayOfNumbers = [5, 3, 2, 9, 8]
+                         ^
+                         // At index 1, we console.log() the current value * 3
+                         // This prints 9
+```
+- Third iteration moves to index 2
+```javascript
+var arrayOfNumbers = [5, 3, 2, 9, 8]
+                            ^
+                            // At index 2, we console.log() the current value * 3
+                            // This prints 6
+```
+- So on an so forth until the end of the array...
+- Final result should be `15, 9, 6, 27, 24`
+
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/JavaScript/js_challenges.md">Go to challenges</a>
 
