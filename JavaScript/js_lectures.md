@@ -1,6 +1,6 @@
-## JavaScript Content
+# JavaScript Content
 
-### Module 1: Intro to JavaScript ###
+## Module 1: Intro to JavaScript ##
 **1. What is JS?**
 
 JavaScript (often shortened to "JS") is a powerful, flexible, and fast programming language. It was created in 1995 so it's old and well documented. Java and JavaScript are not the same language! JavaScript is most commonly used as a client side scripting language. This means that JavaScript code is written into an HTML page and when a user requests an HTML page with JavaScript in it, the script is sent to the browser (chrome) and it's up to the browser to do something with it. If HTML is the skeleton of a program, think of JavaScript as the muscular system! It gives your user something to interact with!
@@ -89,7 +89,7 @@ true != true        // false
 !(true && false)    // true
 ```
 
-### Module 2: Variables ###
+## Module 2: Variables ##
 
 JavaScript variables are containers for storing data values. They are re-usable and re-assignable in most cases. Think of a variable as a piece of Tupperware...
 
