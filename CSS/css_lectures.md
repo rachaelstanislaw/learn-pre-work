@@ -98,6 +98,7 @@ As we mentioned to earlier, in this example we are altering the font colors of t
 - A protected word like purple, pink, or blue. While there are a lot of protected color words in CSS, the perfect color you are looking for may not be included and you'll probably need to be more specific. <a href="https://www.w3schools.com/cssref/css_colors.asp">CSS Colors</a>
 - The hex code for a color
 <img src="/assets/hex.gif">
+
 - The RGB code for a color
 <img src="/assets/rgb.gif">
 
