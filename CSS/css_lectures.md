@@ -46,6 +46,53 @@ Like HTML, there are a ton of styling referneces to use in your key:value pairs 
 
 Don't worry too much on the content of the CSS styling here. Just know that this basic syntax will apply to all of the elements that you end up styling. You can have as many lines of styling code as you'd like within the curly braces. 
 
+**3. Styling HTML Classes and ID's**
+
+Remember _HTML attributes_? The attributes _class_ and _id_ will be paramount when it comes to styling your webpages. 
+
+- A _class_ attribute should be applied to multiple HTML elements that you'd like to all be styled to same way
+- An _id_ attribute should be applied to a single HTML element that will have unique styling
+
+For example:
+```
+<body>
+
+  <h1>Fun with colors!</h1>
+
+  <ul>
+    <li class="purple">Purple 1</li>
+    <li class="purple">Purple 2</li>
+    <li class="purple">Purple 3</li>
+    <li id="blue">Blue</li>
+    <li id="orange">Orange</li>
+    <li id="green">Green</li>
+  </ul>
+
+  <img src="woven.gif">
+
+</body>
+```
+Inside of our `body` tag, we have a header followed by a list of colors. We want all of our purple items to have the same styling, but the rest of the colors should be more unique. For our purples, we have added the attribute `class` and assigned all of them the same thing `"puple"`. For blue, orange, and green, we have added the attribute `id` and assigned them unique values. An `id` value can only be used once in an HTML markup.
+
+So what does the correlating CSS file look like then?
+
+```css
+.purple {
+  color: #8d1aad
+}
+
+
+#blue {
+  color: rgb(52, 81, 227)
+}
+#orange {
+  color: #ffaf2e
+}
+#green {
+  color: #45bf53
+}
+```
+Classes tags are targeted with the syntax above. A `.` then the name of the class. ID's are targeted with a `#` then the name of the ID. 
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css">Go to challenges</a>
 
