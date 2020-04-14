@@ -97,6 +97,10 @@ So what does the correlating CSS file look like then?
   color: #45bf53
 }
 ```
+
+Here's the result:
+<img src="https://i.ibb.co/bsYDyYj/Screen-Shot-2020-04-14-at-11-20-52-AM.png" alt="Screen-Shot-2020-04-14-at-11-20-52-AM" border="0">
+
 Classes tags are targeted with the syntax above. A `.` then the name of the class. ID's are targeted with a `#` then the name of the ID. Notice how we have started to group all of the id's being targeted and separating them from the class. This helps us to stay organized. 
 
 As we mentioned to earlier, in this example we are altering the font colors of these sections of HTML. There are multiple ways to refer to a color in CSS. 
@@ -120,13 +124,16 @@ body {
 We are targeting the entire `body` tag of our HTML markup. Maybe we want all of our paragraphs to have the same styling? It would be a waste of time to write out a class for each `p` tag if we can just target the tag itself:
 ```css
 p {
-  color: LemonChiffon;
-  border: 1px dotted LightSeaGreen;
+  background-color: LemonChiffon;
+  color: LightSeaGreen;
+  border: 1px dotted RosyBrown;
   border-radius: 25px;
   font-size: 150%;
-  text-align: center
-}                             
+  text-align: center;
+}                          
 ```
+The code above would produce paragraphs that look like this:
+<img src="https://i.ibb.co/s6m1fFw/Screen-Shot-2020-04-14-at-11-22-31-AM.png" alt="Screen-Shot-2020-04-14-at-11-22-31-AM" border="0">
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css">Go to challenges</a>
 
