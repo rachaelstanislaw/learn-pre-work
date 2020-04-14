@@ -196,6 +196,15 @@ Now look at our page:
 
 Notice the background on the block-level `div` takes up a whole block of real estate on the page, while the `span` styling falls in-line.
 
+**5. Pseudo-Classes**
+
+A pseudo-class is used to define a special state of an element. For example, it can be used to:
+- Style an element when a user mouses over it
+- Style visited and unvisited links differently
+- Style an element when it gets focus
+
+
+
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css">Go to challenges</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
