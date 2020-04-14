@@ -78,7 +78,7 @@ So what does the correlating CSS file look like then?
 
 ```css
 .purple {
-  color: #8d1aad
+  color: purple
 }
 
 
@@ -92,7 +92,14 @@ So what does the correlating CSS file look like then?
   color: #45bf53
 }
 ```
-Classes tags are targeted with the syntax above. A `.` then the name of the class. ID's are targeted with a `#` then the name of the ID. 
+Classes tags are targeted with the syntax above. A `.` then the name of the class. ID's are targeted with a `#` then the name of the ID. Notice how we have started to group all of the id's being targeted and separating them from the class. This helps us to stay organized. 
+
+As we mentioned to earlier, in this example we are altering the font colors of these sections of HTML. There are multiple ways to refer to a color in CSS. 
+- A protected word like purple, pink, or blue. While there are a lot of protected color words in CSS, the perfect color you are looking for may not be included and you'll probably need to be more specific. <a href="https://www.w3schools.com/cssref/css_colors.asp">CSS Colors</a>
+- The hex code for a color
+<img src="/assets/hex.gif">
+- The RGB code for a color
+<img src="/assets/rbg.gif">
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css">Go to challenges</a>
 
