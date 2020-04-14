@@ -220,6 +220,8 @@ p:hover {
 
 <img src="/assets/hover.gif">
 
+Adding effects to your hover, etc. creates dimension for your site and improves user experience! 
+
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css">Go to challenges</a>
 
