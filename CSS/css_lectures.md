@@ -39,7 +39,7 @@ The syntax for a CSS file is as follows:
 
 ```css
 body {                          /* A reference to the section you are styling followed by opening brace */
-  background-color: #fff88f;     /* Styling written in key:value pairs, followed by a semicolon */
+  background-color: #fff88f;    /* Styling written in key:value pairs, followed by a semicolon */
   color: pink                   
 }                               /* Closing brace */
 ```
@@ -106,6 +106,27 @@ As we mentioned to earlier, in this example we are altering the font colors of t
 
 - The RGB code for a color
 <img src="/assets/rgb.gif">
+
+**3. Style by Tag**
+
+You can also style your HTML by its tag. Like in the example on CSS sytnax:
+
+```css
+body {                      
+  background-color: #fff88f;     
+  color: pink                   
+}                               
+```
+We are targeting the entire `body` tag of our HTML markup. Maybe we want all of our paragraphs to have the same styling? It would be a waste of time to write out a class for each `p` tag if we can just target the tag itself:
+```css
+p {
+  color: LemonChiffon;
+  border: 1px dotted LightSeaGreen;
+  border-radius: 25px;
+  font-size: 150%;
+  text-align: center
+}                             
+```
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css">Go to challenges</a>
 
