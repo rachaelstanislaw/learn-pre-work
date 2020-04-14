@@ -33,7 +33,7 @@ CSS, or Cascading Stylesheets, hold all the code that makes your webpage beautif
 
 You can be as creative as you want with CSS, the sky is the limit. But first, let's start with the basics.
 
-**2. CSS Syntax**
+## Module 2: CSS Syntax ##
 
 The syntax for a CSS file is as follows:
 
@@ -51,7 +51,9 @@ Like HTML, there are a ton of styling referneces to use in your key:value pairs 
 
 Don't worry too much on the content of the CSS styling here. Just know that this basic syntax will apply to all of the elements that you end up styling. You can have as many lines of styling code as you'd like within the curly braces. 
 
-**3. Styling HTML Classes and ID's**
+## Module 3: Targeting Elements ##
+
+**1. Styling HTML Classes and ID's**
 
 Remember _HTML attributes_? The attributes _class_ and _id_ will be paramount when it comes to styling your webpages. 
 
@@ -112,7 +114,7 @@ As we mentioned to earlier, in this example we are altering the font colors of t
 - The RGB code for a color
 <img src="/assets/rgb.gif">
 
-**3. Style by Tag**
+**2. Style by Tag**
 
 You can also style your HTML by its tag. Like in the example on CSS sytnax:
 
@@ -136,7 +138,7 @@ p {
 The code above would produce paragraphs that look like this:
 <img src="https://i.ibb.co/s6m1fFw/Screen-Shot-2020-04-14-at-11-22-31-AM.png" alt="Screen-Shot-2020-04-14-at-11-22-31-AM" border="0">
 
-**4. Divs and Spans**
+## Module 4: Divs and Spans ##
 
 Divs and spans are both tags in HTML that are used as containers for information. Neither are visible on their own on a page.
 - A `div` is a _block-level_ element, meaning that a div will take up the entire width of the page.
@@ -196,7 +198,7 @@ Now look at our page:
 
 Notice the background on the block-level `div` takes up a whole block of real estate on the page, while the `span` styling falls in-line.
 
-**5. Pseudo-Classes**
+## Module 5: Pseudo-Classes ##
 
 A pseudo-class is used to define a special state of an element. For example, it can be used to:
 - Style an element when a user mouses over it
@@ -221,6 +223,96 @@ p:hover {
 <img src="/assets/hover.gif">
 
 Adding effects to your hover, etc. creates dimension for your site and improves user experience! 
+
+## Module 6 Flexbox ##
+
+Something to note: centering things in CSS can be a real pain in the behind! Luckily we have flexbox to help us out! Flexbox is used on a conatiner of elements (such as a div) and organizes the elements within. 
+
+The first thing you have to do to have access toa ll of the great flexbox features is to add the following code to your styling:
+
+```css
+#id {
+  display: flex;
+}
+```
+
+Let's go through some flexbox basics! Look at these dots:
+
+<img src="/assets/original.png">
+
+- Flex direction: Let's add the following code:
+
+```css
+#dots {
+  border: 2px solid black;             /* The border allows us to see the entire area of the div */
+  display: flex;                       /* gives us access to flex abilities */
+  flex-direction: column;              /* direction -> column /*
+}
+```
+<img src="/assets/column.png">
+
+-Flex direction reverse:
+
+```css
+#dots {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column-reverse;       /* direction -> column reverse */
+}
+```
+<img src="/assets/column-reverse.png">
+
+-Flex direction row looks like the original
+```css
+#dots {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;                  /* direction -> row */
+}
+```
+<img src="/assets/original.png">
+
+- But flex direction row _reverse_ looks like this:
+```css
+#dots {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row-reverse;          /* direction -> column reverse */
+}
+```
+<img src="/assets/row-reverse.png">
+
+- To center in row we can use justify content
+```css
+#dots {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+}
+```
+<img src="/assets/justify-center.png">
+
+- Now let's reverse it!
+```css
+#dots {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+```
+<img src="/assets/row-reverse-justify.png">
+
+- To center the column, we will have to align items
+```css
+#dots {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+```
+<img src="/assets/column-align.png">
 
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css">Go to challenges</a>
