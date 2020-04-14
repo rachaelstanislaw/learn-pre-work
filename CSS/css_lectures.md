@@ -99,7 +99,7 @@ As we mentioned to earlier, in this example we are altering the font colors of t
 - The hex code for a color
 <img src="/assets/hex.gif">
 - The RGB code for a color
-<img src="/assets/rbg.gif">
+<img src="/assets/rgb.gif">
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css">Go to challenges</a>
 
