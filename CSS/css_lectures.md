@@ -217,6 +217,7 @@ p:hover {
   color: white
 }
 ```
+
 <img src="/assets/hover.gif">
 
 
