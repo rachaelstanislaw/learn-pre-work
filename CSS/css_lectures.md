@@ -203,6 +203,21 @@ A pseudo-class is used to define a special state of an element. For example, it 
 - Style visited and unvisited links differently
 - Style an element when it gets focus
 
+Here's the syntax of a Pseudo-Class:
+
+```css
+selector:pseudo-class {
+  property:value;
+}
+```
+
+For example, this code will make the color of my text white when I hover over it:
+```css
+p:hover {
+  color: white
+}
+```
+<img src="/assets/hover.gif">
 
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css">Go to challenges</a>
