@@ -99,6 +99,7 @@ So what does the correlating CSS file look like then?
 ```
 
 Here's the result:
+
 <img src="https://i.ibb.co/bsYDyYj/Screen-Shot-2020-04-14-at-11-20-52-AM.png" alt="Screen-Shot-2020-04-14-at-11-20-52-AM" border="0">
 
 Classes tags are targeted with the syntax above. A `.` then the name of the class. ID's are targeted with a `#` then the name of the ID. Notice how we have started to group all of the id's being targeted and separating them from the class. This helps us to stay organized. 
