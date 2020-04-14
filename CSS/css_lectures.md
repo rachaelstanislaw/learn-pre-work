@@ -136,6 +136,66 @@ p {
 The code above would produce paragraphs that look like this:
 <img src="https://i.ibb.co/s6m1fFw/Screen-Shot-2020-04-14-at-11-22-31-AM.png" alt="Screen-Shot-2020-04-14-at-11-22-31-AM" border="0">
 
+**4. Divs and Spans**
+
+Divs and spans are both tags in HTML that are used as containers for information. Neither are visible on their own on a page.
+- A `div` is a _block-level_ element, meaning that a div will take up the entire width of the page.
+- A `span` is an _in-line_ element, meaning that it can contain information without taking up the width of the page.
+
+Here's some code for a basic HTML page complete with a header and some paragraphs. The paragraphs are broken into `div`s which are assigned ID's. Inside of the divs, see if you can find the `span` tags:
+
+```
+<body>
+
+  <h1>I am the header!</h1>
+
+  <div id="intro">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <span>this part is unique</span> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <div id="bodyParagraphs">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate <span>this part is unique</span> velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <div id="conclusion">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <span>this part is unique</span> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+</body>
+```
+Without any styling, our page looks like this:
+
+<img src="https://i.ibb.co/P67xqBL/Screen-Shot-2020-04-14-at-11-36-51-AM.png" alt="Screen-Shot-2020-04-14-at-11-36-51-AM" border="0">
+
+Let's add some styling in our CSS file:
+
+```css
+#intro {
+  background-color: #bcff40;
+  color: #2f62a8
+}
+#bodyParagraphs {
+  background-color: #e1c2f0;
+  color: #713f8a
+}
+#conclusion {
+  background-color: #ffc34a;
+  color: #d12626
+}
+
+span {
+  color: #4f8ff0;
+  font-weight: bold
+}
+```
+Now look at our page:
+
+<img src="https://i.ibb.co/gZYXyM0/Screen-Shot-2020-04-14-at-11-42-46-AM.png" alt="Screen-Shot-2020-04-14-at-11-42-46-AM" border="0">
+
+Notice the background on the block-level `div` takes up a whole block of real estate on the page, while the `span` styling falls in-line.
+
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css">Go to challenges</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
