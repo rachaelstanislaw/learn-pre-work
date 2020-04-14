@@ -34,7 +34,7 @@ The syntax for a CSS file is as follows:
 
 ```css
 body {                          /* A reference to the section you are styling followed by opening brace */
-  background-color: #fff88f,     /* Styling written in key:value pairs followed by a comma */
+  background-color: #fff88f;     /* Styling written in key:value pairs, followed by a semicolon */
   color: pink                   
 }                               /* Closing brace */
 ```
