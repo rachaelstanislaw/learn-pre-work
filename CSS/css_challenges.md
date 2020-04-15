@@ -83,6 +83,36 @@ __lizard {
 }
 ```
 
+_Developr notes: solution below:_
+
+```css
+body {
+  background-color: mintcream
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: olivedrab
+}
+table {
+  font-family: 'Baloo Paaji 2', cursive;
+  background-color: papayawhip;
+}
+
+.dog {
+  color: steelblue
+}
+.cat {
+  color: yellowgreen
+}
+
+#tableHeads {
+  color: orange
+}
+#lizard {
+  color: mediumvioletred
+}
+```
+
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_lectures.md">Go back to lectures</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
