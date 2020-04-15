@@ -21,4 +21,4 @@ Each file will have:
 ### 3. CSS  
 <a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_lectures.md"> CSS Lecture Content </a>
 
-<a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css"> CSS Challenges </a>
+<a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.md"> CSS Challenges </a>
