@@ -321,6 +321,6 @@ Let's go through some flexbox basics! Look at these dots:
 
 Check out <a href="https://flexboxfroggy.com/">Flexbox Froggy </a> for lots of practice in flexbox!
 
-<a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.css">Go to challenges</a>
+<a href="https://github.com/rachaelstanislaw/learn-pre-work/blob/master/CSS/css_challenges.md">Go to challenges</a>
 
 <a href="https://github.com/rachaelstanislaw/learn-pre-work">Back to Table of Contents</a>
