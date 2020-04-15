@@ -251,7 +251,7 @@ Let's go through some flexbox basics! Look at these dots:
 ```
 <img src="/assets/column.png">
 
--Flex direction reverse:
+- Flex direction reverse:
 
 ```css
 #dots {
@@ -262,7 +262,7 @@ Let's go through some flexbox basics! Look at these dots:
 ```
 <img src="/assets/column-reverse.png">
 
--Flex direction row looks like the original
+- Flex direction row looks like the original
 
 ```css
 #dots {
