@@ -87,11 +87,11 @@ _Developr notes: solution below:_
 
 ```css
 body {
-  background-color: mintcream
+  background-color: mintcream;
 }
 h1 {
   font-family: 'Pacifico', cursive;
-  color: olivedrab
+  color: olivedrab;
 }
 table {
   font-family: 'Baloo Paaji 2', cursive;
@@ -99,17 +99,17 @@ table {
 }
 
 .dog {
-  color: steelblue
+  color: steelblue;
 }
 .cat {
-  color: yellowgreen
+  color: yellowgreen;
 }
 
 #tableHeads {
-  color: orange
+  color: orange;
 }
 #lizard {
-  color: mediumvioletred
+  color: mediumvioletred;
 }
 ```
 
