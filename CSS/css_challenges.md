@@ -1,4 +1,4 @@
-**1. Check for understanding: ID vs. Class**
+**1. ID vs. Class Color Activity**
 
 Look at this HTML table:
 
@@ -51,7 +51,7 @@ We would like you to add CSS to make it look like this:
 
 <img src="/assets/mypetsstyled.png">
 
-Use the following color palette to fill in the blanks of the proceeding CSS code:
+Use the following color palette of protected CSS color names to fill in the blanks of the proceeding CSS code:
 
 <img src="/assets/colorpalette.png">
 
