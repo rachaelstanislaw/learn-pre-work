@@ -45,7 +45,7 @@ Look at this HTML table:
 
 The styling we have so far for this table looks like this:
 
-<img arc="/assets/mypets.png">
+<img src="/assets/mypets.png">
 
 We would like you to add CSS to make it look like this:
 
