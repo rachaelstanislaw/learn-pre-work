@@ -228,7 +228,7 @@ Adding effects to your hover, etc. creates dimension for your site and improves 
 
 Something to note: centering things in CSS can be a real pain in the behind! Luckily we have flexbox to help us out! Flexbox is used on a conatiner of elements (such as a div) and organizes the elements within. 
 
-The first thing you have to do to have access toa ll of the great flexbox features is to add the following code to your styling:
+The first thing you have to do to have access to all of the great flexbox features is to add the following code to your styling:
 
 ```css
 #id {
@@ -246,7 +246,7 @@ Let's go through some flexbox basics! Look at these dots:
 #dots {
   border: 2px solid black;             /* The border allows us to see the entire area of the div */
   display: flex;                       /* gives us access to flex abilities */
-  flex-direction: column;              /* direction -> column /*
+  flex-direction: column;              /* direction -> column */
 }
 ```
 <img src="/assets/column.png">
@@ -263,6 +263,7 @@ Let's go through some flexbox basics! Look at these dots:
 <img src="/assets/column-reverse.png">
 
 -Flex direction row looks like the original
+
 ```css
 #dots {
   border: 2px solid black;
@@ -273,16 +274,18 @@ Let's go through some flexbox basics! Look at these dots:
 <img src="/assets/original.png">
 
 - But flex direction row _reverse_ looks like this:
+
 ```css
 #dots {
   border: 2px solid black;
   display: flex;
-  flex-direction: row-reverse;          /* direction -> column reverse */
+  flex-direction: row-reverse;          /* direction -> row reverse */
 }
 ```
 <img src="/assets/row-reverse.png">
 
 - To center in row we can use justify content
+
 ```css
 #dots {
   border: 2px solid black;
@@ -293,6 +296,7 @@ Let's go through some flexbox basics! Look at these dots:
 <img src="/assets/justify-center.png">
 
 - Now let's reverse it!
+
 ```css
 #dots {
   border: 2px solid black;
@@ -304,6 +308,7 @@ Let's go through some flexbox basics! Look at these dots:
 <img src="/assets/row-reverse-justify.png">
 
 - To center the column, we will have to align items
+
 ```css
 #dots {
   border: 2px solid black;
