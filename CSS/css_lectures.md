@@ -75,8 +75,6 @@ For example:
     <li id="green">Green</li>
   </ul>
 
-  <img src="woven.gif">
-
 </body>
 ```
 Inside of our `body` tag, we have a header followed by a list of colors. We want all of our purple items to have the same styling, but the rest of the colors should be more unique. For our purples, we have added the attribute `class` and assigned all of them the same thing `"puple"`. For blue, orange, and green, we have added the attribute `id` and assigned them unique values. An `id` value can only be used once in an HTML markup.
