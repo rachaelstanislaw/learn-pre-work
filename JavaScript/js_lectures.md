@@ -93,8 +93,8 @@ false || false      // false
 // not
 !true               // false
 !false              // true
-true != false       // true
-true != true        // false
+true !== false       // true
+true !== true        // false
 !(true && false)    // true
 !(true && false)    // true
 ```
@@ -168,7 +168,7 @@ if(!hungry) {
 }
 ```
 
-Right now, our program says "`if` _this_ is true, do something. Otherwise, do something _else_. Our `else` statement acts as a catch-all for _any thing_ that doesn't meet the `if` requirement. Let's look at what to do when the choices for our program are not so black and white. We do this by adding an `else if` statement before the `else`:
+Right now, our program says `if` _this_ is true, do something. Otherwise, do something _else_. Our `else` statement acts as a catch-all for _any thing_ that doesn't meet the `if` requirement. Let's look at what to do when the choices for our program are not so black and white. We do this by adding an `else if` statement before the `else`:
 
 ```javascript
 if(hungry) {
