@@ -10,14 +10,14 @@ HTML
 ```
 **2. Quiz: The anatomy of a tag**
 
-_Developer notes: Use the diagram below to create a matching quiz_
+_Developer notes: Use the diagram below to create a quiz_
 
 <img src="https://i.ibb.co/GvBbL3p/quiz.png" alt="quiz" border="0">
 
 - Where is the opening tag? Answer: A. Show an explaination about the `< >` in most cases representing an opening tag
 - Where is the closing tag? Answer: C. Show an explaination about the importance of `</ >` when closing a tag
 - Where do you see camelCase? Answer: A & C. Show the examples of camelCase with multiple words.
-- Which section will be displayed as a string on your web page? Answer: B. 
+- Which section will be displayed as a string on your web page? Answer: B.
 
 **3. Quiz: The anatomy of the HTML boiler plate**
 
